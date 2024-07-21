@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - name: Update APT packages
+      apt:
+        update_cache: yes
